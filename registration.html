@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="register">
+      <div class="register-form">
+        <h3>REGISTER NOW</h3>
+        <form method="get" class="form">
+          <div class="info">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required />
+          </div>
+          <div class="info">
+            <label for="lname">Last Name</label>
+            <input type="text" id="fname" name="fname" required />
+          </div>
+          <div class="info">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="fname" name="fname" required />
+          </div>
+          <div class="info">
+            <label for="email">Email Address</label>
+            <input type="email" id="fname" name="fname" required />
+          </div>
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender">
+            <option value="select" selected disabled>Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <div class="info">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" />
+          </div>
+          <div class="info">
+            <label for="fav-color">Favourite Color</label>
+            <input type="color" name="fav-color" id="fav-color" />
+          </div>
+
+          <button type="submit" class="btn">
+            <a href="#">Register</a>
+          </button>
+
+          <p>Already a member, <a href="login.html">Login </a></p>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
